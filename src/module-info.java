@@ -10,8 +10,8 @@ module workshop {
 
 	opens gui.util to javafx.graphics, javafx.fxml;
 
-//	opens model.entities to javafx.graphics, javafx.fxml, javafx.base;
-//
+	opens model.entities to javafx.graphics, javafx.fxml, javafx.base;
+
 //	opens model.services to javafx.graphics, javafx.fxml;
 //	
 //	opens db to javafx.graphics, javafx.fxml;
