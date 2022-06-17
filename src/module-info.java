@@ -14,8 +14,8 @@ module workshop {
 	
 	opens model.services to javafx.graphics, javafx.fxml;
 	
-//	opens model.dao to javafx.graphics, javafx.fxml;
+	opens model.dao to javafx.graphics, javafx.fxml;
 	
-//	opens db to javafx.graphics, javafx.fxml;
+	opens db to javafx.graphics, javafx.fxml;
 	
 }
