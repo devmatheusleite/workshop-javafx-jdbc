@@ -9,6 +9,8 @@ module workshop {
 	opens db to javafx.graphics, javafx.fxml;
 
 	opens gui to javafx.graphics, javafx.fxml;
+	
+	opens gui.listeners to javafx.graphics, javafx.fxml;
 
 	opens gui.util to javafx.graphics, javafx.fxml;
 	
